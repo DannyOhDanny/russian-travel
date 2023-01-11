@@ -1,0 +1,13 @@
+.intro__list {
+  margin: 0;
+  padding: 33px 442px 0 148px;
+  list-style: none;
+  font-family: 'Inter';
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 1.125rem;
+  color: white;
+  width: 690px;
+  height: 90px;
+}
+/* Цифры указаны обычным шрифтом!!!!*/

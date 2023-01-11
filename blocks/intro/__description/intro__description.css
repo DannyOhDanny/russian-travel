@@ -1,0 +1,11 @@
+.intro__description {
+  margin: 0;
+  padding: 40px 442px 0 148px;
+  font-family: 'Inter';
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.63rem;
+  color: white;
+  width: 690px;
+  height: 208px;
+}
