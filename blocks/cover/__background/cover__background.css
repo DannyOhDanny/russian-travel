@@ -1,9 +1,14 @@
 .cover__background {
-  width: 100%;
-  position: absolute;
-  z-index: -1;
+  position: relative;
+  z-index: 0;
   margin: 0;
   padding: 0;
   width: 1184px;
   height: 740px;
+  object-fit: contain;
+  opacity: 1;
+}
+
+.cover__background:hover {
+  opacity: 0.3;
 }

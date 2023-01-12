@@ -1,0 +1,7 @@
+.footer__column_info {
+  width: 1fr;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: flex-start;
+}
