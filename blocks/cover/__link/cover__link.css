@@ -1,0 +1,11 @@
+.cover__link {
+  margin: 0;
+  padding: 0;
+  width: 560px;
+  height: 152px;
+  position: relative;
+  text-decoration: none;
+  color: white;
+  z-index: 2;
+  cursor: pointer;
+}
