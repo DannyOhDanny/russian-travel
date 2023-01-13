@@ -4,4 +4,9 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+  transition: opacity 0.3s ease-in 0.1s;
+}
+
+.photo-grid__item:hover {
+  opacity: 0.3;
 }
