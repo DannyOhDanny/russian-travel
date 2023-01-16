@@ -5,8 +5,9 @@
   font-weight: 400;
   font-size: 18px;
   line-height: 1.22em;
-  width: 360px;
-  height: 66px;
+  max-width: 360px;
+  max-height: 66px;
+  width: 100%;
   text-align: center;
   color: white;
   position: absolute;

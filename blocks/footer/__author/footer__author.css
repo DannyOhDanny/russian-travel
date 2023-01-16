@@ -1,5 +1,7 @@
 .footer__author {
-  display: inline-flex;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
   font-weight: 400;
   font-size: 14px;
   line-height: 1.14em;

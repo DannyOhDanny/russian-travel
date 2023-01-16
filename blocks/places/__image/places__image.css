@@ -1,9 +1,9 @@
 .places__image {
-  height: 460px;
-  width: 460px;
+  max-height: 460px;
+  max-width: 460px;
+  width: 100%;
   padding: 0;
   margin: 0;
   grid-area: image;
   align-self: flex-start;
-  grid-row: span 4;
 }
