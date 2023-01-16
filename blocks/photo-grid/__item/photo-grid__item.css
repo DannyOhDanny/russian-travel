@@ -1,12 +1,5 @@
 .photo-grid__item {
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  box-sizing: border-box;
   margin: 0;
   padding: 0;
-  transition: opacity 0.3s ease-in 0.1s;
-}
-
-.photo-grid__item:hover {
-  opacity: 0.3;
+  line-height: 0;
 }

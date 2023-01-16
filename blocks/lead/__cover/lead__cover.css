@@ -1,7 +1,8 @@
 .lead__cover {
   margin: 0 auto;
-  padding: 64px 0 8px 0;
+  padding: 64px 0 0 0;
   height: 615px;
   width: 984px;
   object-fit: contain;
+  line-height: 0;
 }

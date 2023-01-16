@@ -1,9 +1,13 @@
 .header__lang-links {
-  margin: 0;
+  margin: -33px 0 0 0;
   padding: 0;
+  min-width: 77px;
+  min-height: 30px;
   list-style: none;
   display: flex;
   flex-direction: row;
   gap: 18px;
-  align-items: flex-end;
+  justify-content: flex-end;
+
+  line-height: 0;
 }

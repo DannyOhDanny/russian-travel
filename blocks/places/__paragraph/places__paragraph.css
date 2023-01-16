@@ -7,7 +7,8 @@
   line-height: 1.63em;
   color: white;
   grid-area: paragraph;
-  grid-row: span 2;
+  text-align: left;
+  word-wrap: break-word;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;

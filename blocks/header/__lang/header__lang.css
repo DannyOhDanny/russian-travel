@@ -1,5 +1,7 @@
 .header__lang {
   margin: 0;
   padding: 0;
-  display: flex;
+  min-height: fit-content;
+  display: inline-block;
+  line-height: 0;
 }

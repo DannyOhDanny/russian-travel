@@ -1,3 +1,6 @@
 .header__lang-link_checked {
-  text-decoration: underline;
+  text-decoration-line: underline;
+  text-underline-offset: 4px;
+  margin: 0;
+  padding: 0;
 }
