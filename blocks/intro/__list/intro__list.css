@@ -5,9 +5,11 @@
   font-family: 'Inter';
   font-size: 12px;
   font-weight: 700;
-  line-height: 1.125rem;
+  line-height: 1.5em;
   color: white;
   width: 690px;
   height: 90px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 /* Цифры указаны обычным шрифтом!!!!*/

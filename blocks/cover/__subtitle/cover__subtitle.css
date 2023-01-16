@@ -4,12 +4,15 @@
   font-family: 'Inter';
   font-weight: 400;
   font-size: 18px;
-  line-height: 1.375rem;
+  line-height: 1.22em;
   width: 360px;
   height: 66px;
   text-align: center;
   color: white;
   position: absolute;
+  z-index: 2;
   top: 521px;
   left: 412px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }

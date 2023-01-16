@@ -4,9 +4,11 @@
   font-family: 'Inter';
   font-weight: 900;
   font-size: 54px;
-  line-height: 58px;
+  line-height: 1.07em;
   color: white;
   text-align: center;
   height: 58px;
   width: 690px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }

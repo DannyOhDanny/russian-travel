@@ -4,10 +4,12 @@
   font-family: 'Inter';
   font-weight: 400;
   font-size: 16px;
-  line-height: 1.125rem;
+  line-height: 1.125em;
   color: white;
   text-decoration: none;
   transition: opacity 0.4s ease-in-out;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
 .footer__column-link:hover {

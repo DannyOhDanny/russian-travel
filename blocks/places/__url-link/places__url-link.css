@@ -1,13 +1,14 @@
-.places__link {
+.places__url-link {
   margin: 0;
-  padding: 12px 0 0 0;
+  padding: 0 0 48px 0;
   font-family: 'Inter';
   font-weight: 400;
   font-size: 18px;
-  line-height: 1.375rem;
+  line-height: 1.22em;
   color: white;
   text-decoration: underline;
   transition: opacity 0.2s ease-in;
+  justify-content: flex-start;
 }
 
 .places__link:hover {

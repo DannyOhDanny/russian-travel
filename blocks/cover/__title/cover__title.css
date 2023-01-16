@@ -7,7 +7,7 @@
   font-family: 'Inter';
   font-weight: 900;
   font-size: 72px;
-  line-height: 4.75rem;
+  line-height: 1.05em;
   text-align: center;
   text-decoration: none;
   background: transparent;
@@ -15,4 +15,6 @@
   top: 337px;
   bottom: 0;
   left: 312px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
