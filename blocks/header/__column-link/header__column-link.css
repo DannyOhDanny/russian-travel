@@ -1,4 +1,4 @@
-.header__lang-link {
+.header__column-link {
   margin: 0;
   padding: 0;
   font-family: 'Inter';
@@ -16,6 +16,6 @@
   text-rendering: optimizeLegibility;
 }
 
-.header__lang-link:hover {
+.header__column-link:hover {
   opacity: 0.3;
 }

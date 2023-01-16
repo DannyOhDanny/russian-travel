@@ -12,22 +12,24 @@
   </head>
   <body class="root">
     <header class="header">
-      <div class="header__logo">
-        <img src="./images/header-logo.svg" class="logo" alt="Лого" />
+      <div class="header__columns">
+        <div class="header__column header__column_content_logo">
+          <img src="./images/header-logo.svg" class="logo" alt="Лого" />
+        </div>
+        <nav class="header__column header__column_content_lang">
+          <ul class="header__column-links">
+            <li><a class="header__column-link header__column-link_checked" href="#">Ru</a></li>
+            <li><a class="header__column-link" href="#">En</a></li>
+          </ul>
+        </nav>
       </div>
-      <nav class="header__lang">
-        <ul class="header__lang-links">
-          <li><a class="header__lang-link header__lang-link_checked" href="#">Ru</a></li>
-          <li><a class="header__lang-link" href="#">En</a></li>
-        </ul>
-      </nav>
     </header>
     <main>
       <section class="lead">
         <h1 class="lead__title">Путешествия по России</h1>
         <p class="lead__subtitle">Настоящая страна не в выпусках новостей, а здесь.</p>
         <figure class="lead__cover">
-          <img src="./images/lead__polka_984x615.jpg" alt="Поезд" />
+          <img src="./images/lead__polka_984x615.jpg" alt="Поезд" class="lead__img" />
           <figcaption class="lead__caption">ваша полка — верхняя</figcaption>
         </figure>
       </section>

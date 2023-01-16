@@ -4,11 +4,10 @@
   margin: 0 auto;
   padding: 0;
   max-width: 1184px;
-  max-height: 740px;
+  max-height: auto;
   width: 100%;
   object-fit: contain;
   opacity: 0.8;
-  align-self: center;
   transition: opacity 0.5s ease-in;
 }
 
