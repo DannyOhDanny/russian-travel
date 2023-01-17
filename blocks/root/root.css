@@ -22,7 +22,8 @@
   font-style: normal;
   font-weight: 700;
   font-display: swap;
-  src: url(../../vendor/fonts/Inter-Bold.woff) format('woff2'), url(../../vendor/fonts/Inter-Bold.woff2) format('woff');
+  src: url(../../vendor/fonts/Inter-Bold.woff) format('woff2'),
+    url(../../vendor/fonts/Inter-Bold.woff2) format('woff');
 }
 
 @font-face {
@@ -34,12 +35,101 @@
     url(../../vendor/fonts/Inter-Regular.woff2) format('woff');
 }
 
-/*
-@media screen and (min-width: 1280px) {
+@media screen and (min-width: 1024px) and (max-width: 1279px) {
+  .lead {
+    margin: 0;
+    padding: 48px 48px 0 48px;
+  }
+
+  .lead__title {
+    margin: 0;
+    padding: 0 104px 0 104px;
+  }
+
+  .lead__subtitle {
+    margin: 0;
+    padding: 32px 144px 0 144px;
+  }
+
+  .lead__img {
+    max-width: 928px;
+    max-height: 580px;
+    width: 100%;
+  }
+
+  .lead__cover {
+    padding: 56px 0 0 0;
+  }
+
+  .intro__title {
+    margin: 0;
+    padding: 0 48px 0 48px;
+  }
+
+  .intro__description {
+    margin: 0;
+    padding: 40px 48px 0 48px;
+  }
+
+  .intro__list {
+    margin: 0;
+    padding: 33px 48px 0 48px;
+  }
+
+  .photo-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 14px;
+  }
+
+  .photo-grid__image {
+    width: 100%;
+    min-width: 300px;
+  }
+
+  .places {
+    margin: 0;
+    padding: 92px 48px 0 48px;
+  }
+
+  .places__grid {
+    width: 100%;
+    max-width: 928px;
+    display: grid;
+    grid-template-rows: repeat (2, auto-fit);
+    grid-template-columns: 440px 456px;
+    grid-gap: 0 40px;
+    margin: 0 auto;
+  }
+
+  .cover {
+    margin: 0 auto;
+    padding: 92px 0 0 0;
+  }
+
+  .cover__background {
+    min-width: 1024px;
+    margin: 0 auto;
+    width: 100%;
+  }
+
+  .cover__title {
+    padding: 0;
+    margin: 0 auto;
+    position: absolute;
+    top: 287px;
+    left: 232px;
+  }
+
+  .cover__subtitle {
+    position: absolute;
+    z-index: 2;
+    top: 471px;
+    left: 332px;
+  }
 }
 
-@media screen and (min-width: 1024px) and (max-width: 1279px) {
-}
+/*
 
 @media screen and (orientation: portrait) and (min-width: 768px) and (max-width: 1023px) {
 }
@@ -52,3 +142,5 @@
 
 @media screen and (max-width: 425px) {
 }
+
+*/
