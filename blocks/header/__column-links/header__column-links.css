@@ -8,6 +8,6 @@
   flex-direction: row;
   gap: 18px;
   justify-content: flex-end;
-
+  align-items: center;
   line-height: 0;
 }
