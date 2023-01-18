@@ -2,7 +2,6 @@
   margin: 0;
   padding: 33px 442px 0 148px;
   list-style: none;
-  font-family: 'Inter';
   font-size: 12px;
   font-weight: 700;
   line-height: 1.5em;
@@ -11,5 +10,12 @@
   height: 90px;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  outline: 1px solid red;
 }
-/* Цифры указаны обычным шрифтом!!!!*/
+
+@media screen and (min-width: 1024px) and (max-width: 1279px) {
+  .intro__list {
+    margin: 0 auto;
+    padding: 33px 48px 0 48px;
+  }
+}

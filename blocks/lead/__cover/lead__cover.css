@@ -3,4 +3,11 @@
   padding: 64px 0 0 0;
   line-height: 0;
   width: fit-content;
+  outline: 1px solid red;
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1279px) {
+  .lead__cover {
+    padding: 56px 0 0 0;
+  }
 }

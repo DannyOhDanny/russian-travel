@@ -5,4 +5,5 @@
   flex-direction: row;
   justify-content: flex-start;
   line-height: 0;
+  outline: 1px solid red;
 }
