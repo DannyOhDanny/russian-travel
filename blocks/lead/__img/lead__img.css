@@ -1,8 +1,23 @@
+.lead__img {
+  max-width: 984px;
+  width: 100%;
+  outline: 1px solid red;
+}
+
 @media screen and (min-width: 1024px) and (max-width: 1279px) {
   .lead__img {
     max-width: 928px;
-    max-height: 580px;
-    width: 100%;
+    min-height: 580px;
     outline: 1px solid red;
+  }
+}
+
+@media screen and (orientation: portrait) and (min-width: 768px) and (max-width: 1023px) {
+  .lead__img {
+    padding: 0;
+    margin: 0 auto;
+    min-width: 768px;
+    min-height: 480px;
+    width: 100%;
   }
 }

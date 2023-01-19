@@ -6,4 +6,5 @@
   margin: 0;
   grid-area: image;
   align-self: flex-start;
+  outline: 1px solid red;
 }

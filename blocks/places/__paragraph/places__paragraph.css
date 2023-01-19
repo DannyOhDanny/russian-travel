@@ -1,7 +1,7 @@
 .places__paragraph {
   margin: 0;
   padding: 0;
-  width: 100%;
+  width: inherit;
   font-weight: 400;
   font-size: 18px;
   line-height: 1.63em;
@@ -12,4 +12,12 @@
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  outline: 1px solid red;
+}
+
+@media screen and (orientation: portrait) and (min-width: 768px) and (max-width: 1023px) {
+  .places__paragraph {
+    font-size: 16px;
+    line-height: 1.63em;
+  }
 }

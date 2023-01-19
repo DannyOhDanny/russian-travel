@@ -1,23 +1,29 @@
-# Проект: Путешествие по России
+# Проект "Путешествия по Роcсии"
 
-### Обзор
-* Интро
-* Figma
-* Картинки
+## Описание проекта
 
-**Интро**
+Цель проекта - создание адаптивной верстки для лендинговой веб-страницы по макету из Figma с использованеим основных принципов верстки
+`HTML` , таблиц стилей `CSS` (включая Flex и Grid Layouts), методологии `БЭМ` Nested, подготовка
+файла описания проекта `README` на языке `markdown`, а также работа с репозиториями
+`Git` и `GitHub Pages`.
 
-Здесь будет проект о путешествии по России.
-В Фигме мы разместили макет, в котором видно, как проект должен выглядеть на самых распространённых разрешениях экранов.
-Этот проект сложнее предыдущих, постарайтесь уделить ему больше времени.
+![Alt-текст](./images/preview.jpg 'Превью проекта')
 
-**Figma**
+**Ссылка на GitHub Pages:**
 
-* [Ссылка на макет в Figma](https://www.figma.com/file/5S2WSbEFL6awjVWJ0NWL8Q/Sprint-3_-Russia-_-desktop-mobile?node-id=28503%3A0)
+**Используемые технологии:**
 
-**Картинки**
+[![techstack logo](https://readme-components.vercel.app/api?component=logo&logo=html5&fill=1A5286)](https://github.com/harish-sethuraman/readme-components)
+[![techstack logo](https://readme-components.vercel.app/api?component=logo&logo=css3&fill=1A5286)](https://github.com/harish-sethuraman/readme-components)
 
-Доставать картинки предстоит из Фигмы. Это расхожая практика, поэтому полезно потренироваться.
-Не забудьте [оптимизировать картинки](https://tinypng.com/), чтобы ваш сайт загружался быстрее.
+**Инструменты разработчика:**
 
-Удачи!
+[![techstack logo](https://readme-components.vercel.app/api?component=logo&logo=github&fill=16a085)](https://github.com/harish-sethuraman/readme-components)
+[![techstack logo](https://readme-components.vercel.app/api?component=logo&logo=git&fill=16a085)](https://github.com/harish-sethuraman/readme-components)
+[![techstack logo](https://readme-components.vercel.app/api?component=logo&logo=markdown&fill=16a085)](https://github.com/harish-sethuraman/readme-components)
+
+**Системные требования:**
+
+[![techstack logo](https://readme-components.vercel.app/api?component=logo&logo=windows&fill=3498db)](https://github.com/harish-sethuraman/readme-components)
+[![techstack logo](https://readme-components.vercel.app/api?component=logo&logo=ios&fill=3498db)](https://github.com/harish-sethuraman/readme-components)
+[![techstack logo](https://readme-components.vercel.app/api?component=logo&logo=linux&fill=3498db)](https://github.com/harish-sethuraman/readme-components)

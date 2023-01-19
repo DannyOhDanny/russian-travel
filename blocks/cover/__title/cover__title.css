@@ -2,7 +2,7 @@
   padding: 0;
   margin: 0 auto;
   max-width: 560px;
-  max-height: 152px;
+  min-height: 152px;
   color: white;
   font-weight: 900;
   font-size: 72px;
@@ -25,5 +25,13 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+  }
+}
+@media screen and (orientation: portrait) and (min-width: 768px) and (max-width: 1023px) {
+  .cover__title {
+    padding: 0;
+    margin: 0 auto;
+    top: 205px;
+    left: 104px;
   }
 }

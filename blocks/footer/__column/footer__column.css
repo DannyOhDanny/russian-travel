@@ -3,3 +3,11 @@
   padding: 0;
   line-height: 0;
 }
+
+@media screen and (orientation: portrait) and (min-width: 768px) and (max-width: 1023px) {
+  .footer__columns {
+    margin: 0 24px 24px 24px;
+    max-width: 720px;
+    width: 100%;
+  }
+}
