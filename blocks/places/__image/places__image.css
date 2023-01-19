@@ -1,10 +1,26 @@
 .places__image {
-  max-height: 460px;
-  max-width: 460px;
+  min-width: 460px;
   width: 100%;
   padding: 0;
   margin: 0;
   grid-area: image;
   align-self: flex-start;
   outline: 1px solid red;
+}
+@media screen and (min-width: 1024px) and (max-width: 1279px) {
+  .places__image {
+    min-width: 440px;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .places__image {
+    min-width: 340px;
+  }
+}
+
+@media screen and (min-width: 424px) and (max-width: 767px) {
+  .places__image {
+    min-width: 424px;
+  }
 }

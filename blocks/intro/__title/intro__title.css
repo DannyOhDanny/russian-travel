@@ -11,13 +11,13 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   outline: 1px solid red;
+  box-sizing: border-box;
 }
 
 @media screen and (min-width: 1024px) and (max-width: 1279px) {
   .intro__title {
     margin: 0 auto 0 48px;
     padding: 33px 0 0 0;
-    width: 100%;
   }
 }
 
@@ -26,6 +26,15 @@
     margin: 0;
     padding: 0 24px 0 24px;
     max-width: 720px;
-    width: 100%;
+  }
+}
+
+@media screen and (min-width: 424px) and (max-width: 767px) {
+  .intro__title {
+    font-size: 38px;
+    line-height: 1.2em;
+    padding: 0 0 0 20px;
+    min-width: 392px;
+    min-height: fit-content;
   }
 }

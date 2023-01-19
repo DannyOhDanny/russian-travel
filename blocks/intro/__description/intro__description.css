@@ -9,6 +9,7 @@
   min-height: 208px;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  width: 100%;
   outline: 1px solid red;
 }
 
@@ -16,14 +17,24 @@
   .intro__description {
     margin: 0 auto 0 48px;
     padding: 33px 0 0 0;
-    width: 100%;
   }
 }
 @media screen and (orientation: portrait) and (min-width: 768px) and (max-width: 1023px) {
   .intro__description {
     margin: 0;
     padding: 40px 24px 0 24px;
-    max-width: 720px;
+    min-width: 720px;
+    box-sizing: border-box;
+  }
+}
+
+@media screen and (min-width: 424px) and (max-width: 767px) {
+  .intro__description {
+    margin: 0;
+    padding: 40px 0 0 20px;
+    min-width: 392px;
     width: 100%;
+    min-height: fit-content;
+    box-sizing: border-box;
   }
 }

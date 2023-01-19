@@ -1,12 +1,27 @@
 .intro {
   margin: 0 auto;
   padding: 92px 0 0 0;
+  width: 100%;
   outline: 1px solid red;
+  box-sizing: border-box;
 }
 
 @media screen and (orientation: portrait) and (min-width: 768px) and (max-width: 1023px) {
   .intro {
     padding: 88px 0 0 0;
-    width: 100%;
+  }
+}
+
+@media screen and (min-width: 424px) and (max-width: 767px) {
+  .intro {
+    padding: 76px 0 0 16px;
+    box-sizing: border-box;
+  }
+}
+
+@media screen and (max-width: 423px) {
+  .intro {
+    padding: 64px 0 0 0;
+    box-sizing: border-box;
   }
 }

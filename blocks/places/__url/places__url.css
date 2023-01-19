@@ -9,3 +9,9 @@
   grid-area: url;
   outline: 1px solid red;
 }
+
+@media screen and (min-width: 424px) and (max-width: 767px) {
+  .places__url {
+    padding-bottom: 32px;
+  }
+}

@@ -2,7 +2,7 @@
   margin: 0 auto;
   padding: 0;
   color: white;
-  max-width: 720px;
+  min-width: 720px;
   min-height: 200px;
   font-size: 96px;
   line-height: 1.04em;
@@ -16,14 +16,22 @@
 
 @media screen and (min-width: 1024px) and (max-width: 1279px) {
   .lead__title {
-    margin: 0 auto;
     padding: 0 104px 0 104px;
   }
 }
 
 @media screen and (orientation: portrait) and (min-width: 768px) and (max-width: 1023px) {
   .lead__title {
-    margin: 0 auto;
     padding: 48px 24px 0 24px;
+  }
+}
+
+@media screen and (min-width: 424px) and (max-width: 767px) {
+  .lead__title {
+    font-size: 48px;
+    line-height: 1.2em;
+    min-width: 392px;
+    padding: 0;
+    min-height: fit-content;
   }
 }

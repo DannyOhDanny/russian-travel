@@ -4,3 +4,9 @@
   display: flex;
   justify-content: flex-start;
 }
+
+@media screen and (min-width: 424px) and (max-width: 768px) {
+  .footer__column_info {
+    display: contents;
+  }
+}

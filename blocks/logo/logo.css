@@ -1,5 +1,15 @@
 .logo {
   margin: 0;
   padding: 0;
-  object-fit: contain;
+  border-style: none;
+  outline: 1px solid red;
+  width: 176px;
+  height: 52px;
+}
+
+@media screen and (min-width: 424px) and (max-width: 767px) {
+  .logo {
+    width: 142px;
+    height: 42px;
+  }
 }

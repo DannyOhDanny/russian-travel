@@ -18,3 +18,9 @@
   opacity: 0.8;
   cursor: pointer;
 }
+
+@media screen and (min-width: 424px) and (max-width: 767px) {
+  .places__url-link {
+    margin-left: 16px;
+  }
+}

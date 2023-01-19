@@ -19,3 +19,10 @@
     width: 100%;
   }
 }
+
+@media screen and (min-width: 424px) and (max-width: 767px) {
+  .cover {
+    padding: 0;
+    box-sizing: border-box;
+  }
+}
