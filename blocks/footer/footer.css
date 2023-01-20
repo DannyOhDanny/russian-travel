@@ -13,11 +13,10 @@
     min-width: 768px;
   }
 }
-/*  
 
 @media screen and (min-width: 424px) and (max-width: 768px) {
   .footer {
     padding: 0;
-    min-width: 424px;
+    margin: 0;
   }
-}*/
+}

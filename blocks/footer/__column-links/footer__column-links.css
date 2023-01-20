@@ -11,7 +11,8 @@
 }
 
 @media screen and (min-width: 424px) and (max-width: 768px) {
-  .footer_column-links {
-    display: contents;
+  .footer__column-links {
+    flex-direction: column;
+    box-sizing: border-box;
   }
 }

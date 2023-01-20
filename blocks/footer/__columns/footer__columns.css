@@ -15,9 +15,10 @@
     max-width: 720px;
   }
 }
-/* 
+
 @media screen and (min-width: 424px) and (max-width: 768px) {
   .footer__columns {
-    display: contents;
+    display: block;
+    box-sizing: border-box;
   }
-} */
+}

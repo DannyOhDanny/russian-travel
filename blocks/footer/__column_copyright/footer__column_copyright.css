@@ -5,3 +5,10 @@
   margin: 0;
   line-height: 0;
 }
+
+@media screen and (min-width: 424px) and (max-width: 768px) {
+  .footer__column_copyright {
+    display: block;
+    box-sizing: border-box;
+  }
+}
