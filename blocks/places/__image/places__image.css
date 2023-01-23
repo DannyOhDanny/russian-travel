@@ -9,6 +9,7 @@
 @media screen and (min-width: 1024px) and (max-width: 1279px) {
   .places__image {
     min-width: 440px;
+    outline: 1px solid red;
   }
 }
 
@@ -20,7 +21,7 @@
 
 @media screen and (min-width: 424px) and (max-width: 767px) {
   .places__image {
-    min-width: 424px;
+    min-width: 392px;
   }
 }
 

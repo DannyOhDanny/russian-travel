@@ -9,6 +9,7 @@
   padding: 0;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  outline: 1px solid red;
 }
 
 @media screen and (min-width: 424px) and (max-width: 767px) {

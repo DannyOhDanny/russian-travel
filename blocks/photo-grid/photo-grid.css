@@ -9,6 +9,7 @@
   box-sizing: border-box;
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
+  outline: 1px solid red;
 }
 
 @media screen and (min-width: 1024px) and (max-width: 1279px) {
@@ -44,7 +45,7 @@
   .photo-grid {
     display: grid;
     padding: 64px 0 0 0;
-    grid-template-columns: repeat(auto-fit, minmax(auto-fit, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(208px, 1fr));
     gap: 12px;
     max-width: 288px;
     margin: 0 auto;

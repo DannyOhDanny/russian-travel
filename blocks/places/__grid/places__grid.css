@@ -13,6 +13,7 @@
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
+  outline: 1px solid red;
 }
 
 @media screen and (min-width: 1024px) and (max-width: 1279px) {
@@ -41,7 +42,7 @@
     width: 100%;
     min-width: 392px;
     display: grid;
-    grid-template-columns: minmax(424px, 1fr);
+    grid-template-columns: minmax(392px, 735px);
     grid-template-areas:
       'header'
       'url'
