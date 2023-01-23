@@ -21,7 +21,7 @@
     min-width: 928px;
     display: grid;
     grid-template-columns: minmax(440px, 1fr) minmax(456px, 1fr);
-    grid-gap: 0 40px;
+    grid-gap: 0 32px;
     outline: 1px solid red;
   }
 }
@@ -50,6 +50,22 @@
       'image'
       'paragraphs';
     grid-gap: 0 25px;
+    margin: 0;
+    box-sizing: border-box;
+  }
+}
+
+@media screen and (max-width: 423px) {
+  .places__grid {
+    width: 100%;
+    max-width: 392px;
+    display: grid;
+    grid-template-columns: minmax(288px, 1fr);
+    grid-template-areas:
+      'header'
+      'url'
+      'image'
+      'paragraphs';
     margin: 0;
     box-sizing: border-box;
   }

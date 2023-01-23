@@ -21,6 +21,12 @@
 
 @media screen and (min-width: 424px) and (max-width: 767px) {
   .places__url-link {
-    margin-left: 16px;
+    padding-left: 16px;
+  }
+}
+
+@media screen and (max-width: 423px) {
+  .places__url-link {
+    padding-left: 16px;
   }
 }

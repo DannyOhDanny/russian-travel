@@ -7,7 +7,7 @@
 файла описания проекта `README` на языке `markdown`, а также работа с репозиториями
 `Git` и `GitHub Pages`.
 
-![Alt-текст](./images/preview.jpg 'Превью проекта')
+![Alt-текст](./images/web-preview.jpg 'Превью проекта')
 
 **Ссылка на GitHub Pages:**
 

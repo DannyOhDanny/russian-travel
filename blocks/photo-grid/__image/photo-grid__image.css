@@ -22,3 +22,9 @@
     min-width: 352px;
   }
 }
+
+@media screen and (max-width: 423px) {
+  .photo-grid__image {
+    max-width: 288px;
+  }
+}

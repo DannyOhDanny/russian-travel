@@ -39,3 +39,12 @@
     box-sizing: border-box;
   }
 }
+
+@media screen and (max-width: 423px) {
+  .intro__list {
+    margin: 0;
+    padding: 34px 16px 0 16px;
+    min-width: 288px;
+    box-sizing: border-box;
+  }
+}

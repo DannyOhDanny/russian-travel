@@ -16,7 +16,14 @@
   }
 }
 
-@media screen and (min-width: 424px) and (max-width: 768px) {
+@media screen and (min-width: 424px) and (max-width: 767px) {
+  .footer__columns {
+    display: block;
+    box-sizing: border-box;
+  }
+}
+
+@media screen and (max-width: 423px) {
   .footer__columns {
     display: block;
     box-sizing: border-box;

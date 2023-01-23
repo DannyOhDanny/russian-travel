@@ -33,7 +33,18 @@
     margin: 0;
     padding: 40px 0 0 20px;
     min-width: 392px;
-    width: 100%;
+    width: 95%;
+    min-height: fit-content;
+    box-sizing: border-box;
+  }
+}
+
+@media screen and (max-width: 423px) {
+  .intro__description {
+    margin: 0;
+    padding: 40px 0 0 20px;
+    min-width: 288px;
+    width: 95%;
     min-height: fit-content;
     box-sizing: border-box;
   }

@@ -24,3 +24,9 @@
     min-width: 424px;
   }
 }
+
+@media screen and (max-width: 423px) {
+  .places__image {
+    min-width: 288px;
+  }
+}

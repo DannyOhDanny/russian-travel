@@ -23,6 +23,13 @@
 @media screen and (min-width: 424px) and (max-width: 767px) {
   .header__column-link {
     font-size: 18px;
-    line-height: 1.17em;
+    line-height: 1.17;
+  }
+}
+
+@media screen and (max-width: 423px) {
+  .header__column-link {
+    font-size: 18px;
+    line-height: 1.17;
   }
 }

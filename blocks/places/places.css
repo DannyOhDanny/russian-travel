@@ -27,13 +27,6 @@
   .places {
     padding: 64px 0 0 16px;
     box-sizing: border-box;
-  }
-}
-
-@media screen and (min-width: 424px) and (max-width: 767px) {
-  .places {
-    padding: 64px 0 0 0;
-    box-sizing: border-box;
     gap: 50px;
   }
 }
@@ -42,5 +35,6 @@
   .places {
     padding: 64px 0 0 0;
     box-sizing: border-box;
+    gap: 50px;
   }
 }

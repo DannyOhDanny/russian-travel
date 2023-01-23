@@ -6,7 +6,14 @@
   line-height: 0;
 }
 
-@media screen and (min-width: 424px) and (max-width: 768px) {
+@media screen and (min-width: 424px) and (max-width: 767px) {
+  .footer__column_copyright {
+    display: block;
+    box-sizing: border-box;
+  }
+}
+
+@media screen and (max-width: 423px) {
   .footer__column_copyright {
     display: block;
     box-sizing: border-box;

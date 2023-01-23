@@ -5,6 +5,7 @@
   grid-template-rows: 3;
   grid-template-columns: repeat(auto-fit, minmax(284px, 1fr));
   gap: 16px;
+  width: 100%;
   box-sizing: border-box;
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
@@ -37,5 +38,16 @@
     grid-template-columns: repeat(auto-fit, minmax(352px, 1fr));
     gap: 16px;
     min-width: 424px;
+  }
+}
+
+@media screen and (max-width: 423px) {
+  .photo-grid {
+    display: grid;
+    padding: 64px 0 0 0;
+    grid-template-columns: repeat(auto-fit, minmax(auto-fit, 1fr));
+    gap: 12px;
+    max-width: 288px;
+    margin: 0 auto;
   }
 }

@@ -29,9 +29,20 @@
 @media screen and (min-width: 424px) and (max-width: 767px) {
   .lead__title {
     font-size: 48px;
-    line-height: 1.2em;
+    line-height: 1.2;
     min-width: 392px;
     padding: 0;
     min-height: fit-content;
+  }
+}
+
+@media screen and (max-width: 423px) {
+  .lead__title {
+    font-size: 40px;
+    line-height: 1.1;
+    min-width: 288px;
+    padding: 0;
+    min-height: fit-content;
+    box-sizing: border-box;
   }
 }

@@ -7,7 +7,7 @@
   color: white;
   text-align: left;
   min-height: 58px;
-  max-width: 690px;
+  min-width: 690px;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   outline: 1px solid red;
@@ -36,5 +36,15 @@
     padding: 0 0 0 20px;
     min-width: 392px;
     min-height: fit-content;
+  }
+}
+
+@media screen and (max-width: 423px) {
+  .intro__title {
+    font-size: 32px;
+    line-height: 1.09;
+    padding: 0 0 0 16px;
+    min-width: 288px;
+    box-sizing: border-box;
   }
 }

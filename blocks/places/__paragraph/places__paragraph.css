@@ -14,7 +14,7 @@
   outline: 1px solid red;
 }
 
-@media screen and (orientation: portrait) and (min-width: 1024px) and (max-width: 1079px) {
+@media screen and (orientation: portrait) and (min-width: 1024px) and (max-width: 1279px) {
   .places__paragraph {
     font-size: 16px;
     line-height: 1.63em;
@@ -35,5 +35,13 @@
     margin: 32px 16px 0 16px;
     word-wrap: normal;
     min-width: 396px;
+  }
+}
+
+@media screen and (max-width: 423px) {
+  .places__paragraph {
+    margin: 32px 16px 0 16px;
+    word-wrap: normal;
+    min-width: 288px;
   }
 }

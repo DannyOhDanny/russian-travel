@@ -17,3 +17,9 @@
     padding: 40px 0 0 0;
   }
 }
+
+@media screen and (max-width: 423px) {
+  .lead__cover {
+    padding: 40px 0 0 0;
+  }
+}
