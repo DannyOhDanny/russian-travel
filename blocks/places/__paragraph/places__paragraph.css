@@ -7,10 +7,8 @@
   line-height: 1.63em;
   color: white;
   text-align: left;
-  -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
 }
 
 @media screen and (orientation: portrait) and (min-width: 1024px) and (max-width: 1279px) {
