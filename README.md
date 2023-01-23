@@ -10,6 +10,7 @@
 ![Alt-текст](./images/web-preview.jpg 'Превью проекта')
 
 **Ссылка на GitHub Pages:**
+https://dannyohdanny.github.io/russian-travel/
 
 **Используемые технологии:**
 

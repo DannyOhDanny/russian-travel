@@ -9,7 +9,6 @@
   color: white;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  outline: 1px solid red;
 }
 
 @media screen and (orientation: portrait) and (min-width: 768px) and (max-width: 1023px) {
