@@ -22,23 +22,25 @@
 @media screen and (min-width: 768px) and (max-width: 1023px) {
   .intro__description {
     padding: 40px 0 0 24px;
-    max-width: 720px;
+    max-width: 768px;
     box-sizing: border-box;
   }
 }
 
 @media screen and (min-width: 424px) and (max-width: 767px) {
   .intro__description {
+    margin: 0;
     padding: 40px 0 0 16px;
-    max-width: 392px;
+    max-width: 424px;
     box-sizing: border-box;
   }
 }
 
 @media screen and (max-width: 423px) {
   .intro__description {
-    padding: 40px 0 0 16px;
-    max-width: 288px;
+    margin: 0;
+    padding: 40px 16px 0 16px;
+    max-width: 423px;
     box-sizing: border-box;
   }
 }
