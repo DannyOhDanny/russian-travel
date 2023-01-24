@@ -1,7 +1,7 @@
 .cover {
   background-image: url(/images/cover_background_1184х740.jpg);
   background-repeat: no-repeat;
-  background-position: center;
+  background-position: top;
   background-size: cover;
   z-index: 0;
   max-width: 1084px;
@@ -48,14 +48,16 @@
     margin: 92px auto;
     padding: 0;
     min-width: 1024px;
+    min-height: 640px;
     width: 100%;
   }
 }
 
-@media screen and (orientation: portrait) and (min-width: 768px) and (max-width: 1023px) {
+@media screen and (min-width: 768px) and (max-width: 1023px) {
   .cover {
     margin: 90px auto 88px auto;
     min-width: 768px;
+    min-height: 480px;
     padding: 0;
     width: 100%;
   }
@@ -65,6 +67,7 @@
   .cover {
     padding: 0;
     margin: 77px auto 76px auto;
+    min-height: 265px;
     min-width: 424px;
     width: 100%;
     box-sizing: border-box;
