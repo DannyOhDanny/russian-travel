@@ -5,11 +5,12 @@
   margin: 0;
   grid-area: image;
   align-self: flex-start;
+  outline: 1px solid red;
 }
+
 @media screen and (min-width: 1024px) and (max-width: 1279px) {
   .places__image {
     min-width: 440px;
-    outline: 1px solid red;
   }
 }
 

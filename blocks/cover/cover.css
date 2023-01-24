@@ -5,8 +5,8 @@
   background-size: cover;
   z-index: 0;
   max-width: 1084px;
-  width: 100%;
   min-height: 740px;
+  width: 100%;
   position: relative;
   display: flex;
   gap: 32px;
@@ -47,19 +47,17 @@
   .cover {
     margin: 92px auto;
     padding: 0;
-    min-width: 1024px;
+    max-width: 1023px;
     min-height: 640px;
-    width: 100%;
   }
 }
 
 @media screen and (min-width: 768px) and (max-width: 1023px) {
   .cover {
     margin: 90px auto 88px auto;
-    min-width: 768px;
+    max-width: 768px;
     min-height: 480px;
     padding: 0;
-    width: 100%;
   }
 }
 
@@ -67,18 +65,16 @@
   .cover {
     padding: 0;
     margin: 77px auto 76px auto;
+    max-width: 424px;
     min-height: 265px;
-    min-width: 424px;
-    width: 100%;
     box-sizing: border-box;
   }
 }
 
 @media screen and (max-width: 423px) {
   .cover {
+    max-width: 319px;
     min-height: 200px;
-    min-width: 320px;
-    width: 100%;
     padding: 0;
     gap: 16px;
     margin: 66px auto 64px auto;

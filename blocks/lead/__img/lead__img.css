@@ -7,7 +7,6 @@
 @media screen and (min-width: 1024px) and (max-width: 1279px) {
   .lead__img {
     max-width: 928px;
-    min-height: 580px;
   }
 }
 
@@ -15,7 +14,22 @@
   .lead__img {
     padding: 0;
     margin: 0 auto;
-    min-width: 768px;
-    min-height: 480px;
+    max-width: 768px;
+  }
+}
+
+@media screen and (min-width: 424px) and (max-width: 767px) {
+  .lead__img {
+    padding: 0;
+    margin: 0 auto;
+    max-width: 424px;
+  }
+}
+
+@media screen and (max-width: 423px) {
+  .lead__img {
+    padding: 0;
+    margin: 0 auto;
+    max-width: 392px;
   }
 }
