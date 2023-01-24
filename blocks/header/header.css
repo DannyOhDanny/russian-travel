@@ -3,7 +3,6 @@
   padding: 28px 48px 0 48px;
   max-height: 52px;
   position: relative;
-  outline: 1px solid red;
 }
 
 @media screen and (min-width: 768px) and (max-width: 1023px) {

@@ -9,7 +9,6 @@
   text-align: center;
   text-decoration: none;
   z-index: 2;
-  outline: 1px solid red;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
