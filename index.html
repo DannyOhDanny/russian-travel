@@ -16,12 +16,10 @@
         <div class="header__column header__column_content_logo">
           <img src="./images/header-logo_176x52.svg" class="logo" alt="Лого" />
         </div>
-        <nav class="header__column header__column_content_lang">
-          <ul class="header__column-links">
-            <li><a class="header__column-link header__column-link_checked" href="#">Ru</a></li>
-            <li><a class="header__column-link" href="#">En</a></li>
-          </ul>
-        </nav>
+        <ul class="header__column header__column-links">
+          <li><a class="header__column-link header__column-link_checked" href="#">Ru</a></li>
+          <li><a class="header__column-link" href="#">En</a></li>
+        </ul>
       </div>
     </header>
     <main>
@@ -52,7 +50,7 @@
           <li>Аэропортов <span class="intro__list-accent">241</span></li>
         </ul>
       </section>
-      <div class="photo-grid">
+      <section class="photo-grid" aria-label="Фото">
         <figure class="photo-grid__item">
           <img src="./images/photo-grid__item1_284x213.jpg" class="photo-grid__image" alt="фото" />
         </figure>
@@ -89,19 +87,22 @@
         <figure class="photo-grid__item">
           <img src="./images/photo-grid__item12_284х213.jpg" class="photo-grid__image" alt="фото" />
         </figure>
-      </div>
-      <div class="places">
-        <article class="places__grid">
+      </section>
+      <section class="places" aria-label="Места">
+        <article class="places__card">
           <h2 class="places__header">Куршская коса</h2>
           <img class="places__image" src="./images/places_kosa_460х460.jpg" alt="Куршская коса" />
           <div class="places__url">
-            <p class="places__url-heading">URL</p>
-            <a
-              class="places__url-link"
-              href="
+            <p class="places__url-heading">url</p>
+            <div class="places__url-link">
+              <a
+                class="places__url-link-text"
+                target="_blank"
+                href="
             http://park-kosa.ru"
-              >park-kosa.ru</a
-            >
+                >park-kosa.ru</a
+              >
+            </div>
           </div>
           <div class="places__paragraphs">
             <p class="places__paragraph">
@@ -118,16 +119,19 @@
             </p>
           </div>
         </article>
-        <article class="places__grid">
+        <article class="places__card">
           <h2 class="places__header">Кольский</h2>
           <img class="places__image" src="./images/places_kolsky_460х460.jpg" alt="Кольский" />
           <div class="places__url">
-            <p class="places__url-heading">URL</p>
-            <a
-              class="places__url-link"
-              href="https://yourshot.nationalgeographic.com/photos/?keywords=kolskiy"
-              >National Geographic</a
-            >
+            <p class="places__url-heading">url</p>
+            <div class="places__url-link">
+              <a
+                class="places__url-link-text"
+                target="_blank"
+                href="https://yourshot.nationalgeographic.com/photos/?keywords=kolskiy"
+                >National Geographic</a
+              >
+            </div>
           </div>
           <div class="places__paragraphs">
             <p class="places__paragraph">
@@ -145,17 +149,20 @@
             </p>
           </div>
         </article>
-        <article class="places__grid">
+        <article class="places__card">
           <h2 class="places__header">Алтай</h2>
           <img class="places__image" src="./images/places_altay_460х460.jpg" alt="Алтай" />
           <div class="places__url">
-            <p class="places__url-heading">URL</p>
-            <a
-              class="places__url-link"
-              href="https://www.youtube.com/watch?v=7ZEsoV7kWAQ
+            <p class="places__url-heading">url</p>
+            <div class="places__url-link">
+              <a
+                class="places__url-link-text"
+                target="_blank"
+                href="https://www.youtube.com/watch?v=7ZEsoV7kWAQ
               "
-              >YouTube
-            </a>
+                >YouTube
+              </a>
+            </div>
           </div>
           <div class="places__paragraphs">
             <p class="places__paragraph">
@@ -172,17 +179,20 @@
             </p>
           </div>
         </article>
-        <article class="places__grid">
+        <article class="places__card">
           <h2 class="places__header">Зимний Байкал</h2>
           <img class="places__image" src="./images/places_baykal_460х460.jpg" alt="Байкал" />
           <div class="places__url">
-            <p class="places__url-heading">URL</p>
-            <a
-              class="places__url-link"
-              href="https://vk.com/baikalmile
+            <p class="places__url-heading">url</p>
+            <div class="places__url-link">
+              <a
+                class="places__url-link-text"
+                target="_blank"
+                href="https://vk.com/baikalmile
               "
-              >https://vk.com/baikalmile</a
-            >
+                >https://vk.com/baikalmile</a
+              >
+            </div>
           </div>
           <div class="places__paragraphs">
             <p class="places__paragraph">
@@ -197,17 +207,20 @@
             </p>
           </div>
         </article>
-        <article class="places__grid">
+        <article class="places__card">
           <h2 class="places__header">Карелия</h2>
           <img class="places__image" src="./images/places_kareliya_460х460.jpg" alt="Карелия" />
           <div class="places__url">
-            <p class="places__url-heading">URL</p>
-            <a
-              class="places__url-link"
-              href="http://vodlozero.ru
+            <p class="places__url-heading">url</p>
+            <div class="places__url-link">
+              <a
+                class="places__url-link-text"
+                target="_blank"
+                href="http://vodlozero.ru
             "
-              >http://vodlozero.ru</a
-            >
+                >http://vodlozero.ru</a
+              >
+            </div>
           </div>
           <div class="places__paragraphs">
             <p class="places__paragraph">
@@ -221,22 +234,26 @@
             </p>
           </div>
         </article>
-      </div>
+      </section>
       <section class="cover">
-        <h2 class="cover__title">
-          <a class="cover__link" href="https://stampsy.com/na-elektrichkakh-do-baikala"
-            >До Байкала «на&nbsp;собаках»</a
+        <div class="cover__overlay cover__link">
+          <a
+            class="cover__link"
+            target="_blank"
+            href="https://stampsy.com/na-elektrichkakh-do-baikala"
           >
-        </h2>
-        <p class="cover__subtitle">
-          По&nbsp;мотивам учебной темы о Транссибе &mdash;&nbsp;путешествие от&nbsp;столицы
-          до&nbsp;Байкала на&nbsp;электричках.
-        </p>
+            <h2 class="cover__title">До Байкала «на&nbsp;собаках»</h2>
+            <p class="cover__subtitle">
+              По&nbsp;мотивам учебной темы о Транссибе &mdash;&nbsp;путешествие от&nbsp;столицы
+              до&nbsp;Байкала на&nbsp;электричках.
+            </p></a
+          >
+        </div>
       </section>
     </main>
     <footer class="footer">
       <div class="footer__columns">
-        <nav class="footer__column footer__column_info">
+        <nav class="footer__column footer__content_info">
           <ul class="footer__column-links">
             <li>
               <a class="footer__column-link" target="_blank" href="https://yandex.ru/maps">Карты</a>
@@ -263,7 +280,7 @@
             </li>
           </ul>
         </nav>
-        <div class="footer__column footer__column_copyright">
+        <div class="footer__column footer__content_copyright">
           <p class="footer__author">&copy;&nbsp;2023. Дарья Матвеева</p>
         </div>
       </div>

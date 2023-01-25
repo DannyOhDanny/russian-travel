@@ -3,20 +3,15 @@
   font-weight: 400;
   color: #aaaaaa;
   line-height: 1em;
-  letter-spacing: 0.2em;
+  letter-spacing: 0.2;
+  text-transform: uppercase;
   margin: 0;
   padding: 0;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
-@media screen and (min-width: 424px) and (max-width: 767px) {
-  .places__url-heading {
-    padding-left: 16px;
-  }
-}
-
-@media screen and (max-width: 423px) {
+@media screen and (min-width: 240px) and (max-width: 767px) {
   .places__url-heading {
     padding-left: 16px;
   }

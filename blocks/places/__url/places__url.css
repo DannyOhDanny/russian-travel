@@ -9,13 +9,7 @@
   grid-area: url;
 }
 
-@media screen and (min-width: 424px) and (max-width: 767px) {
-  .places__url {
-    padding-bottom: 32px;
-  }
-}
-
-@media screen and (max-width: 423px) {
+@media screen and (min-width: 240px) and (max-width: 767px) {
   .places__url {
     padding-bottom: 32px;
   }

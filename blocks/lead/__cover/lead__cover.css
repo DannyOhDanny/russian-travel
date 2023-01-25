@@ -11,13 +11,7 @@
   }
 }
 
-@media screen and (min-width: 424px) and (max-width: 767px) {
-  .lead__cover {
-    padding: 40px 0 0 0;
-  }
-}
-
-@media screen and (max-width: 423px) {
+@media screen and (min-width: 240px) and (max-width: 767px) {
   .lead__cover {
     padding: 40px 0 0 0;
   }

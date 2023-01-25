@@ -11,6 +11,10 @@
   -webkit-font-smoothing: antialiased;
 }
 
+.places__paragraph:nth-child(10) {
+  margin-top: 48px;
+}
+
 @media screen and (min-width: 1024px) and (max-width: 1279px) {
   .places__paragraph {
     font-size: 18px;
@@ -42,5 +46,8 @@
     margin: 32px 16px 0 16px;
     word-wrap: normal;
     min-width: 288px;
+  }
+  .places__paragraph:nth-child(10) {
+    margin-top: 32px;
   }
 }

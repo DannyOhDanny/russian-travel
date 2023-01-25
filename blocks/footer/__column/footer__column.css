@@ -10,12 +10,6 @@
   }
 }
 
-@media screen and (min-width: 424px) and (max-width: 767px) {
-  .footer__column {
-    margin: 0 auto;
-  }
-}
-
 @media screen and (max-width: 424px) {
   .footer__column {
     display: block;

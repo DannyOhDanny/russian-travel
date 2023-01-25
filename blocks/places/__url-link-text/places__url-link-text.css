@@ -1,0 +1,21 @@
+.places__url-link-text {
+  display: block;
+  color: white;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.22;
+  text-decoration-line: underline;
+  text-underline-offset: 4px;
+  transition: opacity 0.4s ease-in-out;
+}
+
+.places__url-link-text:hover {
+  opacity: 0.8;
+  cursor: pointer;
+}
+
+@media screen and (min-width: 240px) and (max-width: 767px) {
+  .places__url-link-text {
+    padding-left: 16px;
+  }
+}

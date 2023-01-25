@@ -1,0 +1,13 @@
+.footer__content_info {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: flex-start;
+}
+
+@media screen and (min-width: 240px) and (max-width: 767px) {
+  .footer__content _info {
+    display: block;
+    box-sizing: border-box;
+  }
+}

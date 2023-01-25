@@ -16,13 +16,7 @@
   }
 }
 
-@media screen and (min-width: 768px) and (max-width: 1023px) {
-  .places__paragraphs {
-    gap: 25px;
-  }
-}
-
-@media screen and (max-width: 423px) {
+@media screen and (min-width: 240px) and (max-width: 1023px) {
   .places__paragraphs {
     gap: 25px;
   }

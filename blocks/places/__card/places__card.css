@@ -1,4 +1,4 @@
-.places__grid {
+.places__card {
   margin: 0 auto;
   padding: 0;
   width: 100%;
@@ -16,31 +16,24 @@
 }
 
 @media screen and (min-width: 1024px) and (max-width: 1279px) {
-  .places__grid {
+  .places__card {
     min-width: 928px;
-    display: grid;
     grid-template-columns: minmax(440px, 1fr) minmax(456px, 1fr);
     grid-gap: 0 32px;
   }
 }
 
 @media screen and (min-width: 768px) and (max-width: 1023px) {
-  .places__grid {
-    width: 100%;
+  .places__card {
     min-width: 720px;
-    display: grid;
     grid-template-columns: minmax(340px, 1fr) minmax(352px, 1fr);
     grid-gap: 0 28px;
-    margin: 0;
-    box-sizing: border-box;
   }
 }
 
 @media screen and (min-width: 424px) and (max-width: 767px) {
-  .places__grid {
-    width: 100%;
+  .places__card {
     min-width: 392px;
-    display: grid;
     grid-template-columns: minmax(392px, 735px);
     grid-template-areas:
       'header'
@@ -48,23 +41,17 @@
       'image'
       'paragraphs';
     grid-gap: 0 25px;
-    margin: 0;
-    box-sizing: border-box;
   }
 }
 
 @media screen and (max-width: 423px) {
-  .places__grid {
-    width: 100%;
+  .places__card {
     max-width: 392px;
-    display: grid;
     grid-template-columns: minmax(288px, 1fr);
     grid-template-areas:
       'header'
       'url'
       'image'
       'paragraphs';
-    margin: 0;
-    box-sizing: border-box;
   }
 }

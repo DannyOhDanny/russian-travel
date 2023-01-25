@@ -1,0 +1,14 @@
+.footer__content_copyright {
+  display: flex;
+  justify-content: flex-end;
+  padding: 0;
+  margin: 0;
+  line-height: 0;
+}
+
+@media screen and (min-width: 240px) and (max-width: 767px) {
+  .footer__content_copyright {
+    display: block;
+    box-sizing: border-box;
+  }
+}

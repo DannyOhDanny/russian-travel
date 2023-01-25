@@ -6,11 +6,6 @@
   transition: opacity 0.4s ease-in-out;
 }
 
-.photo-grid__image:hover {
-  background-color: #000;
-  opacity: 0.8;
-}
-
 @media screen and (min-width: 1024px) and (max-width: 1279px) {
   .photo-grid__image {
     min-width: 300px;
