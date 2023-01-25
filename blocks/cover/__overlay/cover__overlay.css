@@ -1,39 +1,35 @@
 .cover__overlay {
   background-image: url(../../../images/cover_background_1184х740.jpg);
-  background-repeat: no-repeat;
-  background-position: top;
-  background-size: contain;
-  z-index: 0;
+  background-position: center;
+  background-size: cover;
   max-width: 1184px;
+  min-height: 740px;
+  text-decoration: none;
   width: 100%;
-  height: 100%;
-  margin: 0 auto;
-  padding: 0;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  gap: 32px;
+  z-index: 1;
 }
 
-.cover__overlay:before {
+.cover__overlay::before {
   content: '';
-  display: block;
-  width: 100%;
-  height: 100%;
-  top: 0;
-  left: 0;
-  background-color: #2a2c2f;
-  z-index: 1;
-  position: absolute;
+  background: #2a2c2f;
   opacity: 0.3;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: -1;
+  transition: opacity 0.4s ease-in-out;
 }
 
-.cover__overlay:hover:after {
-  content: '';
-  display: block;
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  top: 0;
-  left: 0;
-  background-color: #2a2c2f;
-  z-index: 1;
+.cover__overlay:hover::before {
   opacity: 0.8;
 }
 
@@ -55,7 +51,6 @@
   .cover__overlay {
     max-width: 424px;
     min-height: 265px;
-    box-sizing: border-box;
   }
 }
 
@@ -64,6 +59,5 @@
     max-width: 319px;
     min-height: 200px;
     gap: 16px;
-    box-sizing: border-box;
   }
 }
