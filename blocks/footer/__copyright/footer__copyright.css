@@ -1,7 +1,4 @@
-.footer__author {
-  display: flex;
-  flex-direction: row;
-  justify-content: flex-end;
+.footer__copyright {
   font-weight: 400;
   font-size: 14px;
   line-height: 1.14em;
@@ -12,7 +9,7 @@
 }
 
 @media screen and (min-width: 240px) and (max-width: 767px) {
-  .footer__author {
+  .footer__copyright {
     display: block;
     box-sizing: border-box;
     padding-top: 48px;

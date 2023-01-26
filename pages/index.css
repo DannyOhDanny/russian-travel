@@ -38,11 +38,7 @@
 @import url(../blocks/cover/__title/cover__title.css);
 @import url(../blocks/cover/__subtitle/cover__subtitle.css);
 @import url(../blocks/footer/footer.css);
-@import url(../blocks/footer/__columns/footer__columns.css);
-@import url(../blocks/footer/__column/footer__column.css);
-@import url(../blocks/footer/__column-links/footer__column-links.css);
-@import url(../blocks/footer/__column-link/footer__column-link.css);
-@import url(../blocks/footer/__column-copyright/footer__column-copyright.css);
-@import url(../blocks/footer/__column-info/footer__column-info.css);
-@import url(../blocks/footer/__author/footer__author.css);
+@import url(../blocks/footer/__links/footer__links.css);
+@import url(../blocks/footer/__link/footer__link.css);
+@import url(../blocks/footer/__copyright/footer__copyright.css);
 @import url(../blocks/root/root.css);
