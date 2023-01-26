@@ -17,15 +17,7 @@
   cursor: pointer;
 }
 
-@media screen and (min-width: 424px) and (max-width: 767px) {
-  .footer__link {
-    flex-direction: row;
-    font-size: 24px;
-    line-height: 1;
-  }
-}
-
-@media screen and (max-width: 423px) {
+@media screen and (min-width: 240px) and (max-width: 767px) {
   .footer__link {
     flex-direction: row;
     font-size: 24px;

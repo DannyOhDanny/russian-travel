@@ -27,7 +27,6 @@
 
 @media screen and (min-width: 424px) and (max-width: 767px) {
   .intro__description {
-    margin: 0;
     padding: 40px 0 0 16px;
     max-width: calc(100vw - 16px);
     box-sizing: border-box;
@@ -36,7 +35,6 @@
 
 @media screen and (max-width: 423px) {
   .intro__description {
-    margin: 0;
     padding: 40px 16px 0 16px;
     max-width: 423px;
     box-sizing: border-box;
