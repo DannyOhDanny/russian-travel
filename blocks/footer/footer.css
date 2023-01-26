@@ -2,7 +2,6 @@
   margin: 0 auto;
   padding: 0 48px 24px 48px;
   color: white;
-  position: relative;
   display: flex;
   justify-content: space-between;
 }

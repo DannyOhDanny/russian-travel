@@ -42,6 +42,5 @@
     padding: 64px 0 0 0;
     grid-template-columns: repeat(auto-fit, minmax(208px, 1fr));
     gap: 12px;
-    max-width: 288px;
   }
 }

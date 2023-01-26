@@ -2,6 +2,9 @@
   margin: 0;
   padding: 28px 48px 0 48px;
   position: relative;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
 }
 
 @media screen and (min-width: 768px) and (max-width: 1023px) {

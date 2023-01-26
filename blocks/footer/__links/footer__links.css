@@ -5,13 +5,6 @@
   list-style: none;
   display: flex;
   gap: 18px;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
-@media screen and (min-width: 768px) and (max-width: 1023px) {
-  .footer__links {
-    max-width: 720px;
-  }
 }
 
 @media screen and (min-width: 424px) and (max-width: 767px) {

@@ -2,15 +2,13 @@
   background-image: url(../../../images/cover_background_1184х740.jpg);
   background-position: center;
   background-size: cover;
-  background-color: transparent;
   text-decoration: none;
   width: 100%;
   min-height: 740px;
+  position: relative;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
-  position: relative;
   gap: 32px;
   z-index: 1;
   box-sizing: border-box;
